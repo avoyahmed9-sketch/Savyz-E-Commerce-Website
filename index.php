@@ -32,11 +32,46 @@
             display: inline-block;
             margin-right: 50px;
         }
+        .main{
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .product{
+            border: none;
+            max-width:300px;
+            padding: 30px;
+            text-align: center;
+            margin-top:5px;
+        }
+       
+        .product a{
+            display: block;
+            text-decoration:none;
+            color: black;
+            background-color:greenyellow;
+            padding: 5px;
+            margin-top: 10px;
+            
+        }
+        .product img{
+            width: 50px;
+        }
         .footer{
             display: flex;
             flex-direction: row; /* By default flex direction row te thake its for better practice.  */
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            background-color: gray;
+            position: fixed;
+            bottom: 0px;
+            padding: 10px;
+            width: 100%;
             
+        }
+        .footer p{
+            text-align: center;
         }
         @media(max-width: 400px){
             .header{
@@ -68,7 +103,27 @@
 
 
     </header>
-    <main>
+    <main class="main">
+        <div class="product">
+            <img src="Images/Sneakers1.jpg" alt="Sneaker Image">
+            <h2>Product title</h2>
+            <p>Product description</p>
+            <p>Product quantity</p>
+            <p>Product price</p>
+            <a href="#">Buy Now</a>
+        
+        </div>
+
+        <div class="product">
+            <img src="Images/Sneakers2.jpg" alt="Sneaker Image">
+            <h2>Product title</h2>
+            <p>Product description</p>
+            <p>Product quantity</p>
+            <p>Product price</p>
+            <a href="#">Buy Now</a>
+        
+        </div>
+
 
 
 
