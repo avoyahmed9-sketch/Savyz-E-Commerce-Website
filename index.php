@@ -8,7 +8,10 @@
         *{
             margin: 0px;
             padding: 0px;
-            overflow: hidden;
+            
+        }
+        body{
+            overflow-y:auto;
         }
         .header{
             position: fixed;
@@ -34,9 +37,11 @@
         }
         .main{
             margin-top: 100px;
+            margin-bottom: 80px;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            margin-bottom: 90px;
         }
         .product{
             border: none;
@@ -104,6 +109,11 @@
 
     </header>
     <main class="main">
+
+     <?php for( $i = 0; $i<30; $i++){
+        ?>
+
+
         <div class="product">
             <img src="Images/Sneakers1.jpg" alt="Sneaker Image">
             <h2>Product title</h2>
@@ -114,15 +124,9 @@
         
         </div>
 
-        <div class="product">
-            <img src="Images/Sneakers2.jpg" alt="Sneaker Image">
-            <h2>Product title</h2>
-            <p>Product description</p>
-            <p>Product quantity</p>
-            <p>Product price</p>
-            <a href="#">Buy Now</a>
+        <?php } ?>
+
         
-        </div>
 
 
 
