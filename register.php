@@ -1,11 +1,28 @@
 <?php
+  include "db.php";
+
+
+
+
+
+
+
   if(isset($_POST['submit'])){
     $name =$_POST['name'];
     $email =$_POST['email'];
     $password = $_POST['password'];
     $phone = $_POST['phone'];
     $address = $_POST['address'];
-    
+    $role = "user";
+ 
+    $sql = "insert into users(name,email,password,phone,address,role) values('$name','$email','$password','$phone','$address','$role')";
+    $result= mysqli_query($conn,$sql);
+    if(!$result){
+        echo "Error!:{$conn->error}";
+    }
+    else{
+        echo "Registered Successfully";
+    }   
   }
 
 
@@ -86,8 +103,7 @@
        <input type="text" name="name" placeholder="Enter your name here!" required>
        <input type="email" name="email" placeholder="Enter your email here!" required>
        <input type="password" name="password" placeholder="Enter your password here!" required>
-       <input type="text" name="phone" placeholder="Enter your phone number!" required>
-       <input type="text" name="phone" placeholder="Enter your phone number!" required>
+       <input type="text" name="phone" placeholder="Enter your phone number" required>
        <textarea name="address" placeholder="Enter your address here"></textarea>
        <input class="button" type="submit" name="submit" value="Sign up">
     </form>
