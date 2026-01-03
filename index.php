@@ -44,7 +44,9 @@
             margin-bottom: 90px;
         }
         .product{
-            border: none;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 10px;
             max-width:300px;
             padding: 30px;
             text-align: center;
@@ -62,6 +64,10 @@
         }
         .product img{
             width: 50px;
+        }
+        .productprice{
+            color: burlywood;
+            font-size: large;
         }
         .footer{
             display: flex;
@@ -98,7 +104,7 @@
         <nav>
             <ul>
                 <li><a href="">Login</a></li>
-                <li><a href="">Signup</a></li>
+                <li><a href="register.php">Signup</a></li>
                 <li><a href="">Dashboard</a></li>
             </ul>
         </nav>
@@ -119,7 +125,7 @@
             <h2>Product title</h2>
             <p>Product description</p>
             <p>Product quantity</p>
-            <p>Product price</p>
+            <p class="productprice">Product price</p>
             <a href="#">Buy Now</a>
         
         </div>
