@@ -9,6 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
+        body {
+            background-color: #E7DECD;
+        }
+
         .login{
             position: fixed;
             top: 35%;
@@ -16,7 +20,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #66F227;
+            background-color: #804E49;
             border-radius: 15px 50px;
             padding: 30px;
         }
