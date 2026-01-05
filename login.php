@@ -9,6 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
+        .login{
+            position: fixed;
+            top: 35%;
+            left: 35%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: darkgray;
+            padding: 30px;
+        }
+        .login input{
+            display: block;
+        }
 
 
 
