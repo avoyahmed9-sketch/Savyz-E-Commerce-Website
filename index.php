@@ -6,6 +6,7 @@
     <title>Savyz</title>
     <style>
         *{
+            
             margin: 0px;
             padding: 0px;
             
@@ -28,7 +29,7 @@
             list-style: none;
         }
         .header a{
-            text-decoration: none;
+             text-decoration: none;
             color: white;
         }
         .header li{
@@ -103,7 +104,7 @@
         <a href="index.php"><img src="" alt=""></a>
         <nav>
             <ul>
-                <li><a href="">Login</a></li>
+                <li><a href="login.php">Login</a></li>
                 <li><a href="register.php">Signup</a></li>
                 <li><a href="">Dashboard</a></li>
             </ul>
@@ -116,7 +117,63 @@
     </header>
     <main class="main">
 
-     <?php for( $i = 0; $i<30; $i++){
+
+      <!-- <?php
+        $products = [
+       [
+        "image" => "Images/Sneakers1.jpg",
+        "title" => "Running Sneakers",
+        "description" => "Comfortable running shoes",
+        "quantity" => "In Stock",
+        "price" => "$59.99"
+       ],
+       [
+        "image" => "Images/Sneakers2.jpg",
+        "title" => "Casual Sneakers",
+        "description" => "Perfect for daily wear",
+        "quantity" => "Limited Stock",
+        "price" => "$49.99"
+       ],
+       [
+        "image" => "Images/3rd.jpeg",
+        "title" => "Sports Sneakers",
+        "description" => "Best for gym and sports",
+        "quantity" => "Out of Stock",
+        "price" => "$69.99"
+       ]
+       ];
+      ?>
+       <?php foreach ($products as $product) { ?>
+    
+    <div class="product">
+        <img src="<?php echo $product['image']; ?>" alt="<?php echo $product['title']; ?>">
+        <h2><?php echo $product['title']; ?></h2>
+        <p><?php echo $product['description']; ?></p>
+        <p><?php echo $product['quantity']; ?></p>
+        <p class="productprice"><?php echo $product['price']; ?></p>
+        <a href="#">Buy Now</a>
+    </div>
+
+    <?php } ?> 
+    -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <?php for( $i = 0; $i<30; $i++){
         ?>
 
 
@@ -130,7 +187,7 @@
         
         </div>
 
-        <?php } ?>
+        <?php } ?> 
 
         
 
