@@ -1,5 +1,6 @@
 <?php
      include "db.php";
+     session_start();
      if(isset($_POST['submit'])){
         $email = $_POST['email'];
         $password = $_POST['password'];
@@ -9,7 +10,9 @@
         if($result->num_rows>0){
             $row = mysqli_fetch_assoc($result);
             if($row['password'] == $password){
-                echo "Login succesfully";
+                $_SESSION['user_id']=$row['id'];
+                $_SESSION['user_namne']=$row['name'];
+                $_SESSION['user_role']=$row['role'];
 
             }
             else{
