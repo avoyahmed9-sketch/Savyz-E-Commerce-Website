@@ -49,15 +49,28 @@
         .sidebar ul li a:hover{
             background-color: gray;
         }
+        .main{
+            padding: 30px;
+            margin-left: 200px;
+        }
     </style>
 </head>
 <body>
     <div class="sidebar">
         <ul>
-            <li><a href="http://">Add product</a></li>
+            <li><a href="addproduct.php">Add product</a></li>
             <li><a href="http://">View order</a></li>
-            <li><a href="http://">Logout</a></li>
+            <li><a href="../logout.php">Logout</a></li>
         </ul>
+    </div>
+    <div class="main">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nisi facere saepe nulla deleniti architecto repellat vero eum nam assumenda. Dolor necessitatibus dolorem iste dolores dignissimos eius delectus enim assumenda, repudiandae quo libero quam error praesentium maxime? Sequi expedita veniam perferendis ad dolorum corporis ipsam voluptas, repudiandae velit nesciunt maxime!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione consectetur commodi blanditiis! Magnam exercitationem dignissimos quia veniam laborum, a commodi odit qui dolore dicta praesentium sit numquam quidem ex?
+        </p>
+
+
+
+
     </div>
     
 </body>
