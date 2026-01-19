@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=BBH+Bartle&family=Bowlby+One+SC&family=Frijole&family=Gravitas+One&family=Mrs+Saint+Delafield&family=Notable&family=Sigmar+One&family=Unlock&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=BBH+Bartle&family=Bowlby+One+SC&family=Frijole&family=Gravitas+One&family=Mrs+Saint+Delafield&family=Notable&family=Orbitron:wght@400..900&family=Sigmar+One&family=Unlock&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=BBH+Bartle&family=Bowlby+One+SC&family=Frijole&family=Gravitas+One&family=Mrs+Saint+Delafield&family=Notable&family=Orbitron:wght@400..900&family=Sigmar+One&family=Unlock&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+
+
+
+body{
+    min-height: 100vh;
+    background-color: rgb(174, 169, 169);
+}
+ .ordercard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 150px;
+padding: 150px;
+
+
+
+ }   
+.head h1{
+    text-align: center;
+    color: rgb(170, 255, 0);
+    margin-top: 50px;
+    font-family: "Unlock", serif;
+  font-weight: 400;
+  font-style: normal
+
+}
+.order{
+    background-color: rgb(167, 251, 0);
+    border: 2px solid blanchedalmond;
+    border-radius: 20px;
+    width: 200px;
+    text-align:left;
+    padding: 20px;
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    
+    
+}
+.btnaccept{
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.btnreject{
+    padding: 10px;
+    border-radius: 10px;
+
+}
