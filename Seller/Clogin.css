@@ -1,0 +1,71 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Asset&family=BBH+Bartle&family=Bowlby+One+SC&family=Mrs+Saint+Delafield&family=Sigmar+One&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Asset&family=BBH+Bartle&family=Bowlby+One+SC&family=Frijole&family=Mrs+Saint+Delafield&family=Sigmar+One&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Asset&family=BBH+Bartle&family=Bowlby+One+SC&family=Frijole&family=Mrs+Saint+Delafield&family=Notable&family=Sigmar+One&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 300px;
+            background-color: rgb(95, 92, 92);
+          
+        }
+        .container{
+            background:transparent;
+            width: 320px;
+            min-height: auto;
+            text-align: center;
+            padding: 30px;
+            border: 2px solid black;
+            border-radius: 50px;
+
+        }
+      
+        .container label{
+            top: 0;
+    
+            padding: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 20px;
+
+        }
+        .container input{
+            padding: 10px;
+            width: 200px;
+            border-radius: 20px;
+
+        }
+        .container h1{
+            margin-top: 5px;
+            font-family: "Zalando Sans Expanded", sans-serif;
+            color: greenyellow;
+
+        }
+        .auth {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .auth button{
+            margin-top: 80px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            
+        }
+        .auth button:hover{
+            background-color: greenyellow;
+            cursor: pointer;
+        }
+        
+        
+        img{
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 10px;
+        }
+        
+       
+        
