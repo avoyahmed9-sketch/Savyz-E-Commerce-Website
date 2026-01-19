@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=BBH+Bartle&family=Bowlby+One+SC&family=Frijole&family=Mrs+Saint+Delafield&family=Notable&family=Sigmar+One&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Asset&family=BBH+Bartle&family=Bowlby+One+SC&family=Frijole&family=Mrs+Saint+Delafield&family=Notable&family=Sigmar+One&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .side-bar{
+            position: fixed;
+            width: 300px;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            background-color: rgb(44, 40, 40);
+
+        }
+        .side-bar h1{
+            text-align: center;
+            color: rgb(152, 253, 0);
+             font-family: "Notable", sans-serif;
+  font-weight: 400;
+
+        }
+        body{
+            min-height: 100vh;
+            
+        }
+        .side-bar ul{
+           display: flex;
+           flex-direction: column;
+           gap: 90px;
+          
+           padding: 40px;
+        }
+        .side-bar ul li a{
+            list-style: none;
+            text-decoration: none;
+            color: black;
+             font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  background-color: rgb(156, 255, 6);
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  
+        }
+        .side-bar li a:hover{
+            background-color: bisque;
+            cursor: pointer;
+
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+           
+        }
+        .content input{
+            position: relative;
+            top: 60px;
+            left: 30px;
+            
+            width: 700px;
+            padding: 20px;
+            border-radius: 30px;
+            margin-left:50px;
+        }
+        .content img{
+            width: 100px;
+            position: absolute;
+            top: 10px;
+        margin-left:30px;
+        }
+        
+
+
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-left: 330px; /* sidebar space */
+    padding: 40px;
+    margin-top: 40px;
+}
+.procard {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: transparent;
+    text-align: center;
+
+    /* IMPORTANT */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-img {
+    width: 100%;
+    height: 180px;
+    border: 2px  black;
+    border-radius: 15px;
+    overflow: hidden; /* CRITICAL */
+    margin-bottom: 15px;
+    background-color: rgb(183, 253, 44);
+}
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* no overflow, no stretch */
+    display: block;
+}
+.procard h3 {
+    font-family: "Bowlby One SC", sans-serif;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.procard p {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    margin-bottom: 12px;
+}
+.procard button {
+    padding: 10px 20px;
+    background-color: rgb(153, 255, 0);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.procard button:hover {
+    background-color: bisque;
+}
+.srcbar button {
+    padding: 10px 15px;
+    margin-left: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: #66ff33;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.srcbar form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.srcbar input[type="search"] {
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    font-size: 16px;
+}
