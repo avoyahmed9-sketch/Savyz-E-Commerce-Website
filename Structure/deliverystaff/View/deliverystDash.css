@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=BBH+Bartle&family=Bowlby+One+SC&family=Frijole&family=Gravitas+One&family=Mrs+Saint+Delafield&family=Notable&family=Sigmar+One&family=Unlock&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 350px;
+    height: 100%;
+
+
+    background-color: rgb(251, 157, 17);
+
+}
+body{
+    min-height: 100vh;
+}
+.sidebar h1{
+    text-align: center;
+    font-family: "Unlock", serif;
+  font-weight: 400;
+  font-style: normal;
+  top:0;
+}
+ ul li  a{
+    list-style: none;
+    text-decoration: none;
+    font-family: "Unlock", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: beige;
+  border-radius: 30px;
+  width: 230px;
+  padding:10px;
+  text-align: center;
+
+
+}
+.sidebar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.sidebar li:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+img{
+    position: fixed;
+    top:5px;
+    right:20px;
+    width: 50px;
+}

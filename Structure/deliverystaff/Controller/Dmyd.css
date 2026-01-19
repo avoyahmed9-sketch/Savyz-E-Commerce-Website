@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=BBH+Bartle&family=Bowlby+One+SC&family=Frijole&family=Gravitas+One&family=Mrs+Saint+Delafield&family=Notable&family=Orbitron:wght@400..900&family=Sigmar+One&family=Unlock&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+
+
+
+img{
+    right:5%;
+    position: absolute;
+    width: 100px;
+    top:80px;
+
+}
+h1{
+     font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(170, 255, 0);
+  text-align:center;
+  padding: 60px;
+  background-color: transparent;
+  border: 5px solid black;
+ border-radius: 40px;
+ padding: 50px;
+ 
+
+
+}
+body{
+    background-color: grey;
+    min-height: 100vh;
+}
+.orders-table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: separate; 
+    border-spacing: 30px; 
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+
+.orders-table th {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    background-color:  rgb(188, 249, 64);;
+    color: #000;
+    font-weight: 600;
+
+}
+
+
+.orders-table td {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(188, 249, 64);
+}
+
+
+.orders-table tr:hover td {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+@media (max-width: 768px) {
+    .orders-table th, .orders-table td {
+        padding: 10px;
+        font-size: 50px;
+    }
+}
