@@ -23,9 +23,6 @@ if (!isset($_SESSION['customer_id'])) {
             <li><a href="Cdash.php">All Products</a></li>
             <li><a href="viewcart.php">View Cart</a></li>
             <li><a href="myorders.php">My Orders</a></li>
-            <li><a href="">Offers</a></li>
-            <li><a href="">Wishlist</a></li>
-            <li><a href="">Payment Policy</a></li>
             <li><a href="clogout.php">Log out</a></li>
         </ul>
     </div>
